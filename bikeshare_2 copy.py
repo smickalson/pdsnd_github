@@ -229,7 +229,7 @@ def main():
        user_stats(df)
 
        while True:
-         raw_data = input("\nWould you like to view 5 rows data? Please type 'yes' or 'no'.\n")
+         raw_data = input("\nWould you like to view 5 rows of data? Please type 'yes' or 'no'.\n")
          raw_data = raw_data.lower()
          if raw_data == 'yes':
             rows = df.ix[np.random.choice(df.index,5)]
