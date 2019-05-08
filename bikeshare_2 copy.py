@@ -33,7 +33,7 @@ def get_filters():
       month = input("\nWhich month would you like to see? January, February, March, April, May, June or type 'all'?\n").title()
       month = month.lower()
       if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
-        print("Sorry, that wasn't an option. Try again.")
+        print("Sorry, that didn't work. Try again.")
         continue
       else:
         break
@@ -45,7 +45,7 @@ def get_filters():
       day = input("\nWhich day of the week would you like to see? Type 'all' for all.\n").title()
       day = day.lower()
       if day not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
-        print("Sorry, that wasn't an option. Please try again.")
+        print("Sorry, that didn't work. Please try again.")
         continue
       else:
         break
@@ -229,7 +229,7 @@ def main():
        user_stats(df)
 
        while True:
-         raw_data = input("\nWould you like to view  data? Please type 'yes' or 'no'.\n")
+         raw_data = input("\nWould you like to view 5 rows data? Please type 'yes' or 'no'.\n")
          raw_data = raw_data.lower()
          if raw_data == 'yes':
             rows = df.ix[np.random.choice(df.index,5)]
