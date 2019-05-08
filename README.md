@@ -14,4 +14,4 @@ chicago.csv
 bikeshare_2.py
 
 ### Credits
-Credit to Udacity.
+Credit to Udacity for the data.
