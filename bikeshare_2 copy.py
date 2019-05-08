@@ -33,7 +33,7 @@ def get_filters():
       month = input("\nWhich month would you like to see? January, February, March, April, May, June or type 'all'?\n").title()
       month = month.lower()
       if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
-        print("Sorry, that wasn't an option. Try again.")
+        print("Sorry, that didn't work. Try again.")
         continue
       else:
         break
