@@ -45,7 +45,7 @@ def get_filters():
       day = input("\nWhich day of the week would you like to see? Type 'all' for all.\n").title()
       day = day.lower()
       if day not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):
-        print("Sorry, that wasn't an option. Please try again.")
+        print("Sorry, that didn't work. Please try again.")
         continue
       else:
         break
